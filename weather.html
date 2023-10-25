@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>weatherApp</title>
+    <style>{%style%}
+    </style>
+    
+</head>
+
+
+<body>
+
+    <div class="box">
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+
+
+        <div id="weathercon">
+            <i class="fa-solid fa-sun fa-4x" style="color: #FFF000;"></i>
+           
+        </div>
+
+        <div class="info">
+
+           
+            
+            <h2 class="location"><i class="fa-solid fa-location-dot fa-fade fa-xs"></i> {%location%},{%country%}</h2>
+            <p id="date">Wed |17 Oct 2023| 4:33 AM</p>
+            <h1 class="temp">{%tempval%}&deg;</h1>
+            <h3 class="tempmin_max">{%tempmin%} | {%tempmax%}</h3>
+        </div>
+    </div>
+    
+</body>
+<script id='myScript'>{%script%}</script>
+</html>
